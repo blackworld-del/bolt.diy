@@ -12,7 +12,7 @@ RUN corepack enable pnpm && pnpm install
 COPY . .
 
 # Expose the port the app runs on
-EXPOSE 5174
+EXPOSE 5173
 
 # Production image
 FROM base AS bolt-ai-production
